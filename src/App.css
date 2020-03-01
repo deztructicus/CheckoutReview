@@ -1,0 +1,113 @@
+
+html {
+  font-size: 14px;
+}
+
+body,html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #98a8b4;
+  background-color: #f2f3f8;
+}
+
+.panel{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.emphasize {
+  
+  color: #e76c90;
+  font-weight: 600;
+}
+
+
+.error {
+  border: 2px solid #FF6565;
+}
+
+.error-message {
+  color: #FF6565;
+  padding: .5em .2em;
+  height: 1em;
+  position: absolute;
+  font-size: .8em;
+}
+
+/* Widget CSS */
+.widget {
+  background: #fff;
+  border-radius: 0;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.widget-header{
+  
+  background: #fff;
+  padding: .85rem 1.4rem;
+  width: 100%;
+}
+
+.widget-body {
+  padding-right: 1.4rem ;
+  padding-left: 1.4rem ;
+  padding-bottom: 1.4rem ;
+}
+
+
+.has-shadow {
+  box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.08);
+}
+
+/*  Avatar CSS */
+.avatar{
+  border-radius: 50%!important;
+  width: 50px;
+
+}
+
+.block-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.07rem;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.1;
+  color: #2c304d;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2, .h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h6, .h6 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
